@@ -1,0 +1,146 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$Jyc6cRpPp3XSh4z0L1ob7m$hD5tQG5gul2vYfgkD7d4vbO9YcFHH8oW0symF0msjpA=",
+      "last_login": "2024-03-05T10:52:19.558Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "SkyPro",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-03-04T19:05:01.726Z",
+      "email": "admin@mail.com",
+      "phone": null,
+      "avatar": "",
+      "country": null,
+      "role": "member",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$NgBjQ90RwfBS5lJHu6i88t$5oYs5BEet+JR62qGWzeUK3C+2jCDLRziiViliVEMXaE=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-03-04T19:05:01.973Z",
+      "email": "user1@sky.com",
+      "phone": null,
+      "avatar": "",
+      "country": null,
+      "role": "member",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VtcyFYUAefI3XvPr8Ttzjc$L2PFhK4JfiG02sdmgxEVXpuouYewOwy41eJG58qj2ek=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-03-04T19:05:02.179Z",
+      "email": "user2@sky.com",
+      "phone": null,
+      "avatar": "",
+      "country": null,
+      "role": "member",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$aD7Uqs7DpnAflWjH4uYkXX$3u14ThJ/Feu7QtVRTvYjUx28CthWpW2+r0iNpBk4prg=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-03-04T19:44:36.547Z",
+      "email": "skypro_alex@gmail.com",
+      "phone": "+79270101555",
+      "avatar": "",
+      "country": "Moscow",
+      "role": "member",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "pay_date": "2024-03-05",
+      "pay_course": 1,
+      "pay_lesson": 1,
+      "money": 10,
+      "pay_method": "transfer"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "pay_date": "2024-03-05",
+      "pay_course": 2,
+      "pay_lesson": 2,
+      "money": 10,
+      "pay_method": "transfer"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "pay_date": "2024-03-05",
+      "pay_course": 3,
+      "pay_lesson": 3,
+      "money": 10,
+      "pay_method": "cash"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "pay_date": "2024-03-05",
+      "pay_course": 4,
+      "pay_lesson": 4,
+      "money": 10,
+      "pay_method": "cash"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "pay_date": "2024-03-05",
+      "pay_course": 5,
+      "pay_lesson": 5,
+      "money": 10,
+      "pay_method": "cash"
+    }
+  }
+]
